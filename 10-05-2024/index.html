@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Strength Indicator</title>
+</head>
+<body>
+    
+<div class="Main-class">
+    <div class="Boder">
+        <h1>Password Strength Indicator</h1>
+        <input type="password" oninput="validatePassword()" placeholder="Type password" id="Input">
+        <div id="Color"></div>
+        <div id="password-Strength"></div>
+    </div>
+</div>
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
+
+
+For your password to be considered strong, it needs to include a mix of uppercase and lowercase letters, at least one number, and special characters like !, @, #, or $. If any of these elements are missing, the password will be categorized as weak. Additionally, it must consist of a minimum of four letters, which can be either uppercase or lowercase, for it to be considered weak. If it meets the criteria for medium but not strong, it will be classified as medium. However, if it fulfills the requirements for strong, it will be labeled as such.
+
+
+
+
+

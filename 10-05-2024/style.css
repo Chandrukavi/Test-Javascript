@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Main-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+.Main-class .Boder {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid black;
+  border-style: solid;
+  box-shadow: 2px 2px 2px black;
+  padding: 4%;
+}
+.Main-class .Boder h1 {
+  font-weight: 600;
+  font-size: 25px;
+}
+.Main-class .Boder input {
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 300px;
+}
+.Main-class .Boder input:hover {
+  border: 2px solid green;
+  border-color: green;
+}
+.Main-class #Color {
+  border: 2px solid black;
+  background-color: #d2d2d0;
+  border-style: none;
+  padding: 6px;
+  border-radius: 12px;
+  width: 300px;
+}/*# sourceMappingURL=style.css.map */
